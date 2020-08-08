@@ -34,7 +34,9 @@ class _POCHomeState extends State<POCHome> {
                   child: Column(
                 children: [
                   Text(
-                      'There are ${snapshot.data.documents.length} files in the firebase db.')
+                      'There are ${snapshot.data.documents.length} files in the firebase db.'),
+                  Text('ID: ${snapshot.data.documents[0].documentID}'),
+                  Text('Lat: ${snapshot.data.documents[0]['latitude']}'),
                 ],
               ));
             }));
