@@ -1,16 +1,5 @@
 # wasteagram
 
-A new Flutter project.
+A simple Flutter project exploring use of platform hardware services, remote storage services, form data, and accessibility features.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The goal of the app is to give users, in this case restaurant owners, a way to track food waste. They simply take a photo of any food waste and fill out a form for quantity and description. This data, and their geographic location, are added to a google firestore database, and displayed in a list view for all users of the app.
